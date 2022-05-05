@@ -18,5 +18,6 @@ $items .= '<li><a href="/wp-admin/">Личный кабинет</a></li>';
 $items .= '<li>'. $loginoutlink .'</li>';
  return $items;
 }
+
 */
 ?>
