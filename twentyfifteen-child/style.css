@@ -1,0 +1,45 @@
+    
+/**
+ * Theme Name: Twentyfifteen Child
+ * Description: Twentyfifteen Child Theme
+ * Theme URI: 
+ * Author: 
+ * Author URI: 
+ * Template: twentyfifteen
+ * Version: 1.0.0
+ * @package aa
+ */
+
+/* ----------------------------------------------------------------------------
+ * Child Theme Style.css styles begin here!
+ * ------------------------------------------------------------------------- */
+ 
+.site-main{ padding-bottom:3%;}
+.post-navigation, .comments-area, .list-loop {margin-top:3% !important;}
+
+
+.post-thumbnail img { width: 100%;}
+	
+.site-info {text-align: center;}
+.site-info  p {margin-bottom:2%; font-size:14px;}
+
+.site-info span[role=separator] {     padding: 0 0.25em 0 0.25em;}
+
+.entry-comments-link:before {
+	content: '\f108';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 16px/1 'Genericons';
+	vertical-align: top;
+}
+.entry-header-list{
+    margin: 0 10%;
+    margin-bottom: 3%;}
+	
+.entry-content-list li{
+border-top: 1px solid rgba(51, 51, 51, 0.1);; padding: 0.5% 0;}
+	
+.entry-content-list{ padding: 0 10% 5% 10%; list-style:none; margin-bottom:0px;}
+.entry-content-list a {display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; padding: 5px 0;}
+.entry-content-list a h2 {  -ms-word-break: break-word; word-break: break-word; font-weight:normal;margin-right: 2%;}
+.entry-content-list a time {color: rgba( 0, 0, 4, 0.4 ); white-space: nowrap; font-size:17px; }
